@@ -1,1079 +1,239 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<html lang="en">
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Oranienbaum:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open Sans Hebrew Condensed:wght@400&display=swap"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oranienbaum:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans+Hebrew+Condensed:wght@400&display=swap" />
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="sidebar.css" />
+</head>
 
-    <style>
-      body {
-        margin: 0;
-        line-height: normal;
-      }
-    </style>
-  </head>
-  <body>
-    <div
-      style="
-        position: relative;
-        background-color: #ffd979;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        width: 100%;
-        height: 10792px;
-        text-align: center;
-        font-size: 48px;
-        color: #000;
-        font-family: Oranienbaum;
-      "
-    >
-      <img
-        style="
-          position: absolute;
-          top: 63px;
-          left: 48px;
-          width: 73px;
-          height: 78px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/threebars-106419-1@2x.png"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: calc(50% - 5057.5px);
-          left: 794.5px;
-          width: 35px;
-          height: 38px;
-          mix-blend-mode: normal;
-        "
-        alt=""
-        src="./public/ellipse-1.svg"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 212px;
-          left: 797px;
-          width: 148px;
-          height: 188px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-4@2x.png"
-      />
-
-      <div
-        style="
-          position: absolute;
-          top: 825px;
-          left: 40px;
-          font-size: 30px;
-          line-height: 40px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 280px;
-          height: 122px;
-        "
-      >
-        Seu Criador sendo:
-      </div>
-      <img
-        style="
-          position: absolute;
-          top: 826px;
-          left: 328px;
-          border-radius: 50%;
-          width: 125px;
-          height: 123px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/kent@2x.png"
-      />
-
-      <div
-        style="
-          position: absolute;
-          top: 824px;
-          left: 464px;
-          font-size: 30px;
-          line-height: 40px;
-          font-family: 'Playfair Display';
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 241px;
-          height: 125px;
-        "
-      >
-        KENT BECK
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 819px;
-          left: 40px;
-          border-radius: 21px;
-          background-color: rgba(217, 217, 217, 0);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-            0px 4px 4px rgba(0, 0, 0, 0.25),
-            0px 4px 4px rgba(0, 0, 0, 0.25) inset;
-          border: 2px solid #000;
-          box-sizing: border-box;
-          width: 702px;
-          height: 130px;
-        "
-      ></div>
-      <div
-        style="
-          position: absolute;
-          top: 821px;
-          left: 953px;
-          border-radius: 21px;
-          background-color: rgba(217, 217, 217, 0);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-            0px 4px 4px rgba(0, 0, 0, 0.25),
-            0px 4px 4px rgba(0, 0, 0, 0.25) inset;
-          border: 2px solid #000;
-          box-sizing: border-box;
-          width: 702px;
-          height: 130px;
-        "
-      ></div>
-      <div
-        style="
-          position: absolute;
-          top: 822px;
-          left: 954px;
-          font-size: 30px;
-          line-height: 40px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 264px;
-          height: 122px;
-        "
-      >
-        Seu Criador sendo:
-      </div>
-      <img
-        style="
-          position: absolute;
-          top: 830px;
-          left: 1214px;
-          border-radius: 50%;
-          width: 122px;
-          height: 117px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/dean@2x.png"
-      />
-
-      <div
-        style="
-          position: absolute;
-          top: 830px;
-          left: 1350px;
-          font-size: 30px;
-          line-height: 57px;
-          font-family: 'Playfair Display';
-          text-align: left;
-          display: flex;
-          align-items: center;
-          width: 305px;
-          height: 122px;
-        "
-      >
-        DEAN LEFFINGWELL
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 2044px;
-          left: 0px;
-          background-color: rgba(233, 132, 15, 0.11);
-          width: 1698px;
-          height: 2737px;
-          overflow: hidden;
-        "
-      >
-        <img
-          style="
-            position: absolute;
-            top: 1438.5px;
-            left: 106.5px;
-            border-radius: 10px;
-            width: 1569px;
-            height: 1110px;
-          "
-          alt=""
-          src="./public/rectangle-10.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 1506px;
-            left: 111px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 1536px;
-            height: 325px;
-          "
-        >
-          O SAFe foi criado em 2011, pelo consultor e autor Dean Leffingwell,
-          que tinha experiência em liderar grandes projetos de software em
-          empresas como Rational Software, IBM e BMC Software. Ele percebeu que
-          os métodos ágeis tradicionais, como o XP, não eram suficientes para
-          escalar os benefícios da agilidade para organizações de grande porte,
-          com múltiplas equipes e níveis de hierárquicos.
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 161.5px;
-            left: 51.5px;
-            border-radius: 10px;
-            width: 1291px;
-            height: 977px;
-          "
-          alt=""
-          src="./public/rectangle-11.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 198px;
-            left: 56px;
-            line-height: 42px;
-            white-space: pre-wrap;
-            display: inline-block;
-            width: 1273px;
-            height: 462px;
-          "
-        >
-          <p style="margin: 0">
-            O XP é um método ágil que foi criado em 1996, por Kent Beck, quando
-            ele trabalhava em um projeto da Chrysler chamado C3. Beck aplicou os
-            princípios do Manifesto Ágil, que ele havia co-autorado em 2001, e
-            definiu 12 práticas que caracterizam o XP, como programação em
-            pares, refatoração, integração contínua e feedback constante,
-            flexível e adaptável a mudanças.
-          </p>
-          <p style="margin: 0">&nbsp;</p>
-          <p style="margin: 0">Modelo:</p>
-        </div>
-        <div
-          style="
-            position: absolute;
-            top: 250px;
-            left: 1372px;
-            border-radius: 50%;
-            background-color: #000;
-            width: 26px;
-            height: 25px;
-          "
-        ></div>
-        <img
-          style="
-            position: absolute;
-            top: 174px;
-            left: 1380px;
-            width: 82px;
-            height: 120px;
-            object-fit: cover;
-          "
-          alt=""
-          src="./public/imageremovebgpreview-41@2x.png"
-        />
-
-        <img
-          style="
-            position: absolute;
-            top: 1800px;
-            left: 345px;
-            border-radius: 21px;
-            width: 958px;
-            height: 717px;
-            object-fit: cover;
-          "
-          alt=""
-          src="./public/scaledagileframeworkrenterprisebigpicturev3111-1@2x.png"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 49px;
-            left: 100px;
-            border-radius: 50%;
-            background-color: #0b0b0b;
-            width: 26px;
-            height: 25px;
-          "
-        ></div>
-        <img
-          style="
-            position: absolute;
-            top: 2718px;
-            left: 38px;
-            width: 30px;
-            height: 20px;
-            mix-blend-mode: normal;
-          "
-          alt=""
-          src="./public/ellipse-7.svg"
-        />
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 8419px;
-          left: 97px;
-          width: 1385px;
-          height: 2086px;
-        "
-      >
-        <img
-          style="
-            position: absolute;
-            top: -0.5px;
-            left: -4.5px;
-            border-radius: 10px;
-            width: 979px;
-            height: 474px;
-          "
-          alt=""
-          src="./public/rectangle-16.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 30px;
-            left: 0px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            width: 970px;
-            height: 435px;
-          "
-        >
-          <span style="line-break: anywhere; width: 100%">
-            <p style="margin: 0">
-              As praticas do XP envolvem: Cliente Presente, Planejamento,
-              Programação em Pares, Pequenas Versões, Testes Constantes,
-              Refatoração, Padronização de Código, e Projeto Simples.
-            </p>
-            <p style="margin: 0">
-              As praticas do XP necessitam de presença contínua e ativa do
-              cliente, desenvolvedores trabalhando em duplas para ter códigos
-              melhorados e revisados, e eficácia na prototipação com pequenas
-              versões.
-            </p>
-          </span>
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 679.5px;
-            left: 533.5px;
-            border-radius: 10px;
-            width: 856px;
-            height: 574px;
-          "
-          alt=""
-          src="./public/rectangle-17.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 724px;
-            left: 693px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 548px;
-            height: 488px;
-          "
-        >
-          As práticas do SAFe envolvem: Incremento de programa, Plano de
-          Release, Scrum de Scrum, inspecionar e Adaptar, Demonstração de
-          incrementos, Liderança de Lean-Agile, Gerencia de portifólios,
-          Refinamento de Backlogs, DevOps, Quadro de planejamento, e Workshop de
-          adaptabilidade e avanços.
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 1417.5px;
-            left: 168.5px;
-            border-radius: 10px;
-            width: 1111px;
-            height: 677px;
-          "
-          alt=""
-          src="./public/praticas-ambos.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 1451px;
-            left: 218px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            width: 1012px;
-            height: 635px;
-          "
-        >
-          <span style="line-break: anywhere; width: 100%">
-            <p style="margin: 0">
-              Entre suas práticas SAFe e XP possuem algumas práticas em comuns
-              como desenvolvimento orientado a teste, integração entrega e
-              melhorias contínuas.
-            </p>
-            <p style="margin: 0">
-              Também possuem suas práticas individuais e requerimentos
-              específicos. 
-            </p>
-            <p style="margin: 0">
-              Sendo requisitos específicos do SAFe um maior investimento em
-              treinamento, planejamento e alinhamento estratégico. Porém tais
-              requisitos trazem benefícios com os times de ação rápida.
-            </p>
-            <p style="margin: 0">
-              Já o XP requer maior envolvimento do cliente e comprometimento dos
-              desenvolvedores que traz uma maior qualidade e produtividade e
-              satisfação dos envolvidos.
-            </p>
-          </span>
-        </div>
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 4803px;
-          left: 150px;
-          width: 1409px;
-          height: 1729px;
-        "
-      >
-        <img
-          style="
-            position: absolute;
-            top: 24.5px;
-            left: -4.5px;
-            border-radius: 10px;
-            width: 498px;
-            height: 844px;
-          "
-          alt=""
-          src="./public/rectangle-12.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 33px;
-            left: 0px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 489px;
-            height: 838px;
-          "
-        >
-          O escopo do XP é flexível e adaptável às mudanças de requisitos e
-          prioridades do cliente. O projeto é dividido em pequenas
-          funcionalidades chamadas de história de usuário, que são estimadas,
-          priorizadas e implementaddas em clicos curtos, chamados de iterações.
-          A cada iteração, o cliente recebe uma versão funcional e testada do
-          software, e pode dar feedback e solicitar alterações.
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: -0.5px;
-            left: 894.5px;
-            border-radius: 10px;
-            width: 519px;
-            height: 902px;
-          "
-          alt=""
-          src="./public/rectangle-13.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 26px;
-            left: 905px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 489px;
-            height: 838px;
-          "
-        >
-          O escopo do SAFe é alinhado e sincronizado entre os diferentes níveis
-          da organização, que são: time, programa, portfólio e valor. Cada nível
-          tem seu próprio backlog, que contém os itens de trabalho que devem ser
-          entregues. O escopo do do SAFe é definido de forma estratégica, com
-          base na visão na missão, nos objetivos e nos valores da organização. O
-          escopo da SAFe é revisado e ajustado periodicamente, de acordo com os
-          resultados obtidos e as mudanças do mercado.
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 1085.5px;
-            left: 169.5px;
-            border-radius: 10px;
-            width: 1021px;
-            height: 644px;
-          "
-          alt=""
-          src="./public/escopo-ambos.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 1094px;
-            left: 174px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            width: 1012px;
-            height: 635px;
-          "
-        >
-          <span style="line-break: anywhere; width: 100%">
-            <p style="margin: 0">
-              A principal diferença entre os escopos de XP e SAFe é suas
-              escalas.
-            </p>
-            <p style="margin: 0">
-              SAFe é uma metodologia que teve seu escopo planejado para um
-              desenvolvimento em grande escala com múltiplos times e de forma
-              contínua já XP é uma metodologia focada em projetos de pequeno a
-              médio porte com um desenvolvimento em meio a requisitos volateis.
-            </p>
-          </span>
-        </div>
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 276px;
-          left: 32px;
-          width: 1620px;
-          height: 1709px;
-        "
-      >
-        <img
-          style="
-            position: absolute;
-            top: 60.5px;
-            left: -4.5px;
-            border-radius: 10px;
-            width: 740px;
-            height: 480px;
-          "
-          alt=""
-          src="./public/rectangle-3.svg"
-        />
-
-        <img
-          style="
-            position: absolute;
-            top: 1073.5px;
-            left: 344.5px;
-            border-radius: 10px;
-            width: 1021px;
-            height: 644px;
-          "
-          alt=""
-          src="./public/escopo-ambos.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: 1074px;
-            left: 349px;
-            line-height: 40px;
-            white-space: pre-wrap;
-            display: flex;
-            align-items: center;
-            width: 1012px;
-            height: 635px;
-          "
-        >
-          <span style="line-break: anywhere; width: 100%">
-            <p style="margin: 0">
-              Os métodos ágeis de Extreme Programming (XP) e Scaled Agile
-              Framework (SAFe) são duas abordagens diferentes para o
-              desenvolvimento de software que seguem os princípios do Manifesto
-              Ágil.
-            </p>
-            <p style="margin: 0">
-              &gt; O XP é mais focado na qualidade do código e na colaboração
-              entre os desenvolvidores e o cliente, enquanto o SAFe é mais
-              voltado para a escala e o alinhamento estratégico das
-              organizações.
-            </p>
-            <p style="margin: 0">
-              &gt; O XP é mais simples e flexível, mas pode ser difícil de
-              aplicar em grandes projetos.
-            </p>
-            <p style="margin: 0">
-              &gt; O SAFe é mais complexo e estruturado, mas pode perder a
-              agilidade e a adaptabilidade.
-            </p>
-          </span>
-        </div>
-        <div
-          style="
-            position: absolute;
-            top: calc(50% - 854.5px);
-            left: calc(50% - 677px);
-            line-height: 40px;
-            font-family: 'Open Sans Hebrew Condensed';
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 432px;
-            height: 52px;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          "
-        >
-          EXTREME PROGRAMMING
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 57.5px;
-            left: 917.5px;
-            border-radius: 10px;
-            width: 703px;
-            height: 480px;
-          "
-          alt=""
-          src="./public/rectangle-4.svg"
-        />
-
-        <div
-          style="
-            position: absolute;
-            top: calc(50% - 854.5px);
-            left: calc(50% + 211px);
-            line-height: 40px;
-            text-transform: uppercase;
-            font-family: 'Open Sans Hebrew Condensed';
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 492px;
-            height: 43px;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          "
-        >
-          Scaled Agile Framework
-        </div>
-        <div
-          style="
-            position: absolute;
-            top: calc(50% - 770.5px);
-            left: calc(50% - 800px);
-            line-height: 40px;
-            display: inline-block;
-            width: 703px;
-            height: 425px;
-          "
-        >
-          O XP enfatiza a qualidade do código, a colaboração entre os
-          desenvolvedores e o envolvimento do cliente. Ele se baseia em 12
-          práticas, como a programação em pares, testes automatizados,
-          refatoração, integração contínua e feedback constante. O XP é adequado
-          para projetos pequenos e médios, com requisitos voláteis e equipes
-          co-localizadas.
-        </div>
-        <div
-          style="
-            position: absolute;
-            top: 75px;
-            left: 922px;
-            line-height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 698px;
-            height: 414px;
-          "
-        >
-          O SAFe visa escalar os princípios ágeis e enxutos para organizações de
-          grande porte, com multiplas equipes e níveis hierárquicos. Ele se
-          baseia em quatro níveis: time, programa, portfólio e valor. O SAFe
-          promove o alinhamento estratégico, a entrega ccontínua de valor, a
-          colaboração entre as partes interessadas e a melhoria contínua.
-        </div>
-      </div>
-      <div
-        style="
-          position: absolute;
-          top: 6566px;
-          left: 0px;
-          background-color: rgba(255, 181, 69, 0.29);
-          width: 1698px;
-          height: 1741px;
-          overflow: hidden;
-        "
-      >
-        <div
-          style="
-            position: absolute;
-            top: 49px;
-            left: 87px;
-            width: 1487px;
-            height: 1632px;
-          "
-        >
-          <img
-            style="
-              position: absolute;
-              top: 63.5px;
-              left: -4.5px;
-              border-radius: 10px;
-              width: 722px;
-              height: 589px;
-            "
-            alt=""
-            src="./public/rectangle-14.svg"
-          />
-
-          <div
-            style="
-              position: absolute;
-              top: 55px;
-              left: 3px;
-              line-height: 40px;
-              display: flex;
-              align-items: center;
-              width: 710px;
-              height: 578px;
-            "
-          >
-            <span style="line-break: anywhere; width: 100%">
-              <p style="margin: 0">
-                Os 5 princípios que norteiam o XP são Comunicação, Feedback,
-                Simplicidade, Mudanças Incrementais e Trabalho de Alta
-                Qualidade.
-              </p>
-              <p style="margin: 0">
-                A comunicação e feedback, são essenciais para facilitar e
-                permitir a troca de ideias, tanto com a equipe quanto com o
-                cliente. Simplicidade nos códigos. Mudanças para que permita
-                ajustes durante o desenvolvimento. E qualidade para realizar um
-                trabalho que gere valor.
-              </p>
-            </span>
-          </div>
-          <img
-            style="
-              position: absolute;
-              top: -0.5px;
-              left: 923.5px;
-              border-radius: 10px;
-              width: 568px;
-              height: 794px;
-            "
-            alt=""
-            src="./public/rectangle-15.svg"
-          />
-
-          <div
-            style="
-              position: absolute;
-              top: 0px;
-              left: 928px;
-              line-height: 40px;
-              display: flex;
-              align-items: center;
-              width: 559px;
-              height: 785px;
-            "
-          >
-            <span style="line-break: anywhere; width: 100%">
-              <p style="margin: 0">
-                Os 8 princípios fundamentais do SAFe são: Visão Econômica,
-                Pensamento Sistêmico, Variabilidade, Incrementar com Ciclos
-                Rápidos e Integrados, Marcos de Avaliação, Fluxo Contínuo,
-                Sincronização, e Motivação.
-              </p>
-              <p style="margin: 0">
-                Para empresas grandes que dependem de equipes engajadas, o uso
-                do SAFe depende desses princípios para a entrega de projetos de
-                qualidade e rapidez.
-              </p>
-            </span>
-          </div>
-          <img
-            style="
-              position: absolute;
-              top: 898.5px;
-              left: 220.5px;
-              border-radius: 10px;
-              width: 1111px;
-              height: 742px;
-            "
-            alt=""
-            src="./public/principios-ambos.svg"
-          />
-
-          <div
-            style="
-              position: absolute;
-              top: 967px;
-              left: 270px;
-              line-height: 40px;
-              display: flex;
-              align-items: center;
-              width: 1012px;
-              height: 635px;
-            "
-          >
-            <span style="line-break: anywhere; width: 100%">
-              <p style="margin: 0">
-                Os Princípios de SAFe e de XP se cruzam em diversos casos.
-              </p>
-              <p style="margin: 0">
-                Desenvolvimento incremental, cooperação entre equipe e cliente,
-                entregas rápidas e de qualidade, flexibilidade de escopo do
-                projeto, criação de valor progressiva e de acordo.
-              </p>
-              <p style="margin: 0">
-                Porém seus focos podem diferir como por exemplo SAFe tem como
-                principal foco de seus princípios em promover o alinhamento das
-                equipes e adaptação às mudanças do mercado e das necessidades de
-                seus clientes.
-              </p>
-              <p style="margin: 0">
-                Já XP tem como foco de seus princípios a qualidade de códigos e
-                satisfação do cliente com técnicas de engenharia de software
-                como o uso de testes automatizados e programação em pares e
-                integração contínua. 
-              </p>
-            </span>
-          </div>
-        </div>
-        <img
-          style="
-            position: absolute;
-            top: 784px;
-            left: 132px;
-            width: 30px;
-            height: 30px;
-            mix-blend-mode: normal;
-          "
-          alt=""
-          src="./public/ellipse-8.svg"
-        />
-
-        <img
-          style="
-            position: absolute;
-            top: 684px;
-            left: 58px;
-            width: 115.03px;
-            height: 144.59px;
-            object-fit: cover;
-          "
-          alt=""
-          src="./public/imageremovebgpreview-8@2x.png"
-        />
-      </div>
-      <img
-        style="
-          position: absolute;
-          top: 8967px;
-          left: 1194.97px;
-          width: 35px;
-          height: 30px;
-          mix-blend-mode: normal;
-        "
-        alt=""
-        src="./public/ellipse-9.svg"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 8867px;
-          left: 1182px;
-          width: 135.97px;
-          height: 144.59px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-9@2x.png"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 336.57px;
-          left: 43px;
-          width: 1490px;
-          height: 9466.87px;
-        "
-        alt=""
-        src="./public/vector-118.svg"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 4670px;
-          left: 32px;
-          width: 124.73px;
-          height: 146.38px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-6@2x.png"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 5783px;
-          left: 1516px;
-          width: 30px;
-          height: 30px;
-          mix-blend-mode: normal;
-        "
-        alt=""
-        src="./public/ellipse-7.svg"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 5696px;
-          left: 1510px;
-          width: 124.73px;
-          height: 146.38px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-7@2x.png"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 9764px;
-          left: 382px;
-          width: 45px;
-          height: 41px;
-          mix-blend-mode: normal;
-        "
-        alt=""
-        src="./public/ellipse-81.svg"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 1977px;
-          left: 73px;
-          width: 188.44px;
-          height: 183.97px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-5@2x.png"
-      />
-
-      <img
-        style="
-          position: absolute;
-          top: 9675px;
-          left: 315px;
-          width: 115.03px;
-          height: 144.59px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/imageremovebgpreview-81@2x.png"
-      />
-
-      <div
-        style="
-          position: absolute;
-          top: 10636px;
-          left: 63px;
-          background-color: rgba(217, 217, 217, 0);
-          border: 2px solid #000;
-          box-sizing: border-box;
-          width: 391px;
-          height: 81px;
-        "
-      ></div>
-      <div
-        style="
-          position: absolute;
-          top: 10636px;
-          left: 63px;
-          line-height: 40px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 334px;
-          height: 81px;
-        "
-      >
-        Referências
-      </div>
-      <img
-        style="
-          position: absolute;
-          top: 10648px;
-          left: 376px;
-          width: 57px;
-          height: 57px;
-          object-fit: cover;
-        "
-        alt=""
-        src="./public/downarrow-2-1@2x.png"
-      />
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Trabalho de Engenharia</span>
     </div>
-  </body>
+    <ul class="nav-links">
+      <li>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection'></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP & MySQL</a></li>
+        </ul>
+      </li>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <div class="main-container">
+        <i class='bx bx-menu'></i>
+        <div class="auto-layer-row">
+          <span class="extreme-programming">EXTREME PROGRAMMING</span>
+          <div class="image-removebg-preview"></div>
+          <span class="scaled-agile-framework">Scaled Agile Framework</span>
+        </div>
+        <div class="auto-layer-row-1">
+          <div class="frame">
+            <div class="ellipse"></div>
+            <div class="auto-layer-column">
+              <div class="rectangle"></div>
+              <span class="o-xp-e-um">O XP é um método ágil que foi criado em 1996, por Kent Beck,
+                quando ele trabalhava em um projeto da Chrysler chamado C3. Beck
+                aplicou os princípios do Manifesto Ágil, que ele havia co-autorado
+                em 2001, e definiu 12 práticas que caracterizam o XP, como
+                programação em pares, refatoração, integração contínua e feedback
+                constante, flexível e adaptável a mudanças.<br /><br />Modelo:</span>
+              <div class="ellipse-2"></div>
+              <div class="esquema-sobre-o-extreme-programming-x"></div>
+              <div class="rectangle-3"></div>
+              <span class="saFe-creator">O SAFe foi criado em 2011, pelo consultor e autor Dean
+                Leffingwell, que tinha experiência em liderar grandes projetos de
+                software em empresas como Rational Software, IBM e BMC Software.
+                Ele percebeu que os métodos ágeis tradicionais, como o XP, não
+                eram suficientes para escalar os benefícios da agilidade para
+                organizações de grande porte, com múltiplas equipes e níveis de
+                hierárquicos.</span>
+              <div class="scaled-agile-framework-4"></div>
+              <div class="ellipse-5"></div>
+              <div class="image-removebg-preview-6"></div>
+            </div>
+          </div>
+          <div class="frame-7">
+            <div class="auto-layer-column-8">
+              <div class="principios">
+                <div class="auto-layer-row-9">
+                  <div class="rectangle-a"></div>
+                  <span class="xp-principles">Os 5 princípios que norteiam o XP são Comunicação, Feedback,
+                    Simplicidade, Mudanças Incrementais e Trabalho de Alta
+                    Qualidade.<br />A comunicação e feedback, são essenciais para
+                    facilitar e permitir a troca de ideias, tanto com a equipe
+                    quanto com o cliente. Simplicidade nos códigos. Mudanças para
+                    que permita ajustes durante o desenvolvimento. E qualidade
+                    para realizar um trabalho que gere valor.</span>
+                  <div class="rectangle-b"></div>
+                  <span class="safe-principles">Os 8 princípios fundamentais do SAFe são: Visão Econômica,
+                    Pensamento Sistêmico, Variabilidade, Incrementar com Ciclos
+                    Rápidos e Integrados, Marcos de Avaliação, Fluxo Contínuo,
+                    Sincronização, e Motivação. <br />Para empresas grandes que
+                    dependem de equipes engajadas, o uso do SAFe depende desses
+                    princípios para a entrega de projetos de qualidade e
+                    rapidez.</span>
+                </div>
+                <div class="auto-layer-row-c">
+                  <div class="principios-ambos"></div>
+                  <span class="principios-ambos-d">Os Princípios de SAFe e de XP se cruzam em diversos
+                    casos.<br />Desenvolvimento
+                    incremental, cooperação entre equipe e cliente, entregas
+                    rápidas e de qualidade, flexibilidade de escopo do projeto,
+                    criação de valor progressiva e de acordo.<br />Porém seus
+                    focos podem diferir como por exemplo SAFe tem como principal
+                    foco de seus princípios em promover o alinhamento das equipes
+                    e adaptação às mudanças do mercado e das necessidades de seus
+                    clientes.<br />Já XP tem como foco de seus princípios a
+                    qualidade de códigos e satisfação do cliente com técnicas de
+                    engenharia de software como o uso de testes automatizados e
+                    programação em pares e integração contínua. <br /></span>
+                </div>
+              </div>
+              <div class="image-removebg-preview-e"></div>
+            </div>
+          </div>
+          <div class="Rectangle">
+            <span class="span">O XP enfatiza a qualidade do código, a colaboração entre os
+              desenvolvedores e o envolvimento do cliente. Ele se baseia em 12
+              práticas, como a programação em pares, testes automatizados,
+              refatoração, integração contínua e feedback constante. O XP é
+              adequado para projetos pequenos e médios, com requisitos voláteis e
+              equipes co-localizadas.</span>
+          </div>
+          <div class="image-removebg-preview-f"></div>
+          <div class="Rectangle-10">
+            <div class="auto_layer_row">
+              <span class="span-11">Seu Criador sendo: </span>
+              <div class="div"></div>
+              <span class="span-12">KENT BECK</span>
+            </div>
+          </div>
+          <div class="div-13">
+            <div class="auto_layer_column">
+              <div class="image-removebg-preview-14"></div>
+              <div class="Rectangle-15">
+                <span class="span-16">As praticas do XP envolvem: Cliente Presente, Planejamento,
+                  Programação em Pares, Pequenas Versões, Testes Constantes,
+                  Refatoração, Padronização de Código, e Projeto Simples.<br />As
+                  praticas do XP necessitam de presença contínua e ativa do
+                  cliente, desenvolvedores trabalhando em duplas para ter códigos
+                  melhorados e revisados, e eficácia na prototipação com pequenas
+                  versões.<br /></span>
+              </div>
+              <div class="Rectangle-17"></div>
+              <span class="flexible-scope">O escopo do XP é flexível e adaptável às mudanças de requisitos e
+                prioridades do cliente. O projeto é dividido em pequenas
+                funcionalidades chamadas de história de usuário, que são
+                estimadas, priorizadas e implementaddas em clicos curtos, chamados
+                de iterações. A cada iteração, o cliente recebe uma versão
+                funcional e testada do software, e pode dar feedback e solicitar
+                alterações.
+              </span>
+              <div class="scope-both"></div>
+              <span class="scope-both-18">A principal diferença entre os escopos de XP e SAFe é suas
+                escalas.<br />SAFe é uma metodologia que teve seu escopo planejado
+                para um desenvolvimento em grande escala com múltiplos times e de
+                forma contínua já XP é uma metodologia focada em projetos de
+                pequeno a médio porte com um desenvolvimento em meio a requisitos
+                volateis.<br /></span>
+              <div class="rectangle-19">
+                <span class="agile-methods">Os métodos ágeis de Extreme Programming (XP) e Scaled Agile
+                  Framework (SAFe) são duas abordagens diferentes para o
+                  desenvolvimento de software que seguem os princípios do
+                  Manifesto Ágil. <br />> O XP é mais focado na qualidade do
+                  código e na colaboração entre os desenvolvidores e o cliente,
+                  enquanto o SAFe é mais voltado para a escala e o alinhamento
+                  estratégico das organizações. <br />> O XP é mais simples e
+                  flexível, mas pode ser difícil de aplicar em grandes
+                  projetos.<br />> O SAFe é mais complexo e estruturado, mas pode
+                  perder a agilidade e a adaptabilidade.</span>
+              </div>
+              <div class="rectangle-1a">
+                <span class="safe-practices">As práticas do SAFe envolvem: Incremento de programa, Plano de
+                  Release, Scrum de Scrum, inspecionar e Adaptar, Demonstração de
+                  incrementos, Liderança de Lean-Agile, Gerencia de portifólios,
+                  Refinamento de Backlogs, DevOps, Quadro de planejamento, e
+                  Workshop de adaptabilidade e avanços.
+                </span>
+              </div>
+              <div class="image-removebg-preview-1b"></div>
+            </div>
+          </div>
+          <div class="image-removebg-preview-1c"></div>
+          <div class="ellipse-1d"></div>
+          <div class="rectangle-1e">
+            <div class="auto-layer-row-1f">
+              <span class="creator-being">Seu Criador sendo: </span>
+              <div class="dean"></div>
+              <span class="dean-leffingwell">DEAN LEFFINGWELL</span>
+            </div>
+          </div>
+          <div class="rectangle-20"></div>
+          <span class="span-21">O SAFe visa escalar os princípios ágeis e enxutos para organizações
+            de grande porte, com multiplas equipes e níveis hierárquicos. Ele se
+            baseia em quatro níveis: time, programa, portfólio e valor. O SAFe
+            promove o alinhamento estratégico, a entrega ccontínua de valor, a
+            colaboração entre as partes interessadas e a melhoria contínua.</span>
+          <div class="rectangle-22">
+            <span class="span-23">O escopo do SAFe é alinhado e sincronizado entre os diferentes
+              níveis da organização, que são: time, programa, portfólio e valor.
+              Cada nível tem seu próprio backlog, que contém os itens de trabalho
+              que devem ser entregues. O escopo do do SAFe é definido de forma
+              estratégica, com base na visão na missão, nos objetivos e nos
+              valores da organização. O escopo da SAFe é revisado e ajustado
+              periodicamente, de acordo com os resultados obtidos e as mudanças do
+              mercado.</span>
+          </div>
+          <div class="image-removebg-preview-24"></div>
+        </div>
+        <div class="div-25">
+          <span class="span-26">Entre suas práticas SAFe e XP possuem algumas práticas em comuns como
+            desenvolvimento orientado a teste, integração entrega e melhorias
+            contínuas.<br />Também possuem suas práticas individuais e
+            requerimentos específicos. <br />Sendo requisitos específicos do SAFe
+            um maior investimento em treinamento, planejamento e alinhamento
+            estratégico. Porém tais requisitos trazem benefícios com os times de
+            ação rápida.<br />Já o XP requer maior envolvimento do cliente e
+            comprometimento dos desenvolvedores que traz uma maior qualidade e
+            produtividade e satisfação dos envolvidos.<br /></span>
+        </div>
+        <div class="div-27">
+          <div class="auto-layer-row-28">
+            <span class="span-29">Referências</span>
+            <div class="div-2a"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
 </html>
