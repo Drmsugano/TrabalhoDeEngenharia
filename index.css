@@ -1,13 +1,9 @@
-.main-container {
-  overflow: hidden;
-}
-
-.main-container,
-.main-container * {
-  box-sizing: border-box;
+body{
+  margin: 0;
+  overflow-x: hidden;
 }
 .main-container {
-  height: fit-content;
+  position: relative;
   width: max-content;
   background: rgb(255, 217, 121);
 }
@@ -35,14 +31,12 @@
   width: 433px;
   height: 52px;
   top: 35%;
-  left: 80%;
   font-family: Open Sans Hebrew Condensed;
   color: rgb(0, 0, 0);
   font-size: 48px;
   font-weight: 400;
   line-height: 40px;
   text-align: center;
-  transform: translate(-159.72%, -50%);
   z-index: 4;
   word-break: break-word;
 }
@@ -62,14 +56,13 @@
   width: 493px;
   height: 43px;
   top: 50%;
-  left: 50%;
+  left: 95%;
   font-family: Open Sans Hebrew Condensed;
   color: rgb(0, 0, 0);
   font-size: 48px;
   font-weight: 400;
   line-height: 40px;
   text-align: center;
-  transform: translate(40.24%, -60.47%);
   z-index: 6;
   word-break: break-word;
 }
@@ -83,7 +76,7 @@
 }
 .frame {
   position: absolute;
-  width: 1698px;
+  width: 100000px;
   height: 2737px;
   top: 1710px;
   left: 0;
@@ -223,7 +216,7 @@
 }
 .frame-7 {
   position: absolute;
-  width: 1698px;
+  width: 100000px;
   height: 1741px;
   top: 6232px;
   left: 0;

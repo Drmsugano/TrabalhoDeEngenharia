@@ -1,7 +1,5 @@
 .sidebar{
     position: fixed;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 260px;
     background: #11101d;
@@ -9,7 +7,7 @@
     transition: all 0.5s ease;
   }
   .sidebar.close{
-    width: 78px;
+    width: 60px;
   }
   .sidebar .logo-details{
     height: 60px;
@@ -21,7 +19,7 @@
     font-size: 30px;
     color: #fff;
     height: 50px;
-    min-width: 78px;
+    min-width: 60px;
     text-align: center;
     line-height: 50px;
   }
@@ -66,7 +64,7 @@
   }
   .sidebar .nav-links li i{
     height: 50px;
-    min-width: 78px;
+    min-width: 60px;
     text-align: center;
     line-height: 50px;
     color: #fff;
@@ -204,14 +202,16 @@
     position: relative;
     background:  rgb(255, 217, 121);;
     height: fit-content;
-    left: 260px;
-    width: calc(100% - 260px);
+    left: 250px;
+    height: 7550px;
+    width: calc(120% - 250px);
     transition: all 0.5s ease;
     padding: 10px;
+    overflow-x: hidden;
   }
   .sidebar.close ~ .home-section{
     left: 60px;
-    width: calc(100% - 78px);
+    width: calc(100% - 60px);
   }
   .home-content{
     transform: scale(0.7);
@@ -222,10 +222,20 @@
   }
   .home-section .home-content .bx-menu,
   .home-section .home-content .text{
+    position: fixed;
     color: #11101d;
-    font-size: 30px;
+    font-size: 45px;
   }
+
+  .home-section  .bx-menu,
+  .home-section .text{
+    position: fixed;
+    color: #11101d;
+    font-size: 35px;
+  }
+
   .home-section .home-content .bx-menu{
+    position: fixed;
     cursor: pointer;
     margin-right: 10px;
   }
