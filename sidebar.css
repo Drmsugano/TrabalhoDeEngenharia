@@ -203,7 +203,7 @@
     background:  rgb(255, 217, 121);;
     height: fit-content;
     left: 250px;
-    height: 7550px;
+    height: 7450px;
     width: calc(120% - 250px);
     transition: all 0.5s ease;
     padding: 10px;

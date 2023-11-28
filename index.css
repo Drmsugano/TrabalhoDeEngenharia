@@ -20,17 +20,16 @@ body{
 }
 .auto-layer-row {
   position: absolute;
+  display: flex;
   top: 212px;
-  right: 147px;
-  bottom: 10400px;
-  left: 165px;
   z-index: 3;
 }
 .extreme-programming {
-  position: absolute;
+  position: relative;
   width: 433px;
   height: 52px;
   top: 35%;
+  left: 20%;
   font-family: Open Sans Hebrew Condensed;
   color: rgb(0, 0, 0);
   font-size: 48px;
@@ -41,22 +40,23 @@ body{
   word-break: break-word;
 }
 .image-removebg-preview {
-  position: absolute;
+  position: relative;
   width: 140px;
   height: 180px;
   top: 0;
-  left: 636px;
+  left: 254%;
   background: url(./assets/images/279cac44-3242-4446-8ec9-ec7735edcde8.png)
     no-repeat center;
+    align-items: center;
   background-size: cover;
   z-index: 5;
 }
 .scaled-agile-framework {
-  position: absolute;
+  position: relative;
   width: 493px;
   height: 43px;
   top: 50%;
-  left: 95%;
+  left: 45%;
   font-family: Open Sans Hebrew Condensed;
   color: rgb(0, 0, 0);
   font-size: 48px;
